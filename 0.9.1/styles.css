@@ -1,0 +1,64 @@
+:root{
+    --cor1: white;
+    --cor2: black;
+}
+div{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+button svg {
+    width: 20px;
+    height: 20px;
+
+}
+
+button{
+    
+    background-color: var(--cor2);
+    fill: var(--cor1);
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+h1{
+    border-bottom: dotted;
+    border-width: 2px;
+
+}
+.recebidos{
+    background-color:  #808080;
+    padding: 10px;
+    list-style: none;
+    margin: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+
+}
+.enviados{
+    background-color: #88cfba;
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: auto;
+    position: relative;
+}
+li svg{
+    width: 10px;
+    height: 10px;
+    fill: rgb(36, 107, 199);
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+}
