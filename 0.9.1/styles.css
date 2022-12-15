@@ -40,6 +40,7 @@ h1{
     margin: 5px;
     width: fit-content;
     border-radius: 10px;
+    position: relative;
 
 }
 .enviados{
@@ -50,11 +51,14 @@ h1{
     width: fit-content;
     border-radius: 10px;
     margin-left: auto;
+    position: relative;
 }
 li svg{
     width: 10px;
     height: 10px;
     fill: rgb(36, 107, 199);
-    
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
 
 }
